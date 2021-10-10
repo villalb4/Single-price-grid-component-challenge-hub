@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--Light-Gray);
+  font-family: 'Karla', sans-serif;
+  letter-spacing: -0.013em;
+}
+main {
+  padding: 40px 20px;
+  margin:0 auto;
+}
+
+/*sections*/
+.head {
+  max-width: 635px;
+  background-color: white;
+  border-radius: 9px 9px 0 0;
+  box-shadow: 1px 5px 20px 1px hsla(195, 3%, 26%, 0.178);
+}
+.flex-container {
+  display: flex;
+}
+.price {
+  background-color: var(--Cyan);
+  border-radius: 0 0 0 9px;
+  width: 317px
+}
+.why {
+  background-color:  #4abebd;
+  border-radius: 0 0 9px 0;
+  width: 317px;
+}
+
+/*contents*/
+/*head*/
+.head h1{
+  font-size: 23px;
+  font-weight: 700px;
+  color: var(--Cyan);
+  padding-top: 42px;
+  margin: 0 0 25px 40px;
+}
+.head h2 {
+  margin: 0 0 10px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--Bright-Yellow);
+}
+.head p {
+  padding-bottom:41px;
+  margin:0 40px 0 42px;
+  font-weight: 400;
+}
+.paragraph {
+  color: hsla(216, 22%, 67%, 0.863);
+  line-height: 25.5px;
+  font-size: 16px;
+}
+
+/*price*/
+.price {
+  padding: 0;
+}
+.price h2 {
+  padding-top: 41px;
+  font-size: 18px;
+  margin:0 95px 17px 40px;
+  color: var(--Light-Gray);
+  letter-spacing: -0.013em;
+}
+.month {
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px 40px;
+  color: hsla(179, 43%, 75%, 0.911);
+}
+.month .cost {
+  font-size: 32px;
+  font-weight: 700;
+  padding-right: 11px;
+  color: white;
+}
+.text {
+  font-size: 15px;
+  letter-spacing: 0.017em;
+  color: var(--Light-Gray);
+  margin: 0 44px 30px 40px;
+}
+.price div {
+  display: inline-block;
+  padding-bottom: 39px;
+}
+.price button {
+  font-family: 'Karla', sans-serif;
+  margin: 0 0px 0 40px;
+  padding: 14px 89px 14px 89px;
+  border-radius:5px;
+  border-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  background: var(--Bright-Yellow);
+  box-shadow: 1px 8px 12px -2px hsla(195, 3%, 26%, 0.247);
+  cursor:pointer;
+}
+
+
+/*why*/
+.why h2 {
+  font-size: 18px;
+  margin:41px 0 14px 40px;
+  color: white;
+}
+.why ul {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 144.9%;
+  margin: 0 99px 20px 40px;
+  color: hsla(203, 44%, 93%, 0.774);
+}
